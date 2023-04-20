@@ -6,6 +6,7 @@ import classNames from "classnames/bind";
 import styles from "./header.module.scss";
 import HeaderList, { MenuItem } from "../../atoms/header-list";
 import ColorButton from "../../atoms/color-button/index";
+import ImageLoader from './../../atoms/image-loader/index';
 
 export default function Header() {
   const ss = classNames.bind(styles);
@@ -30,7 +31,8 @@ export default function Header() {
         </ul>
         <Link href="/">
           <div className={ss("logo-container")}>
-            <Logo />
+          <ImageLoader imageName="logo" width={167} height={28}/>
+     
           </div>
         </Link>
 
