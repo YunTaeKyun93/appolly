@@ -1,6 +1,58 @@
-.wrapper{
-    width: 100vw;
-    height: 100vh;
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 124px;
+  justify-content: space-between;
+  margin-top: 67px;
+  margin-bottom: 83px;
+  .border-container {
+    position: relative;
+    width: 570px;
+    height: 535px;
+    border: 18px solid #7572ff;
+    left: 185px;
+    top: 168px;
+    // 큰화면으로 위치 조정 필요
+    box-sizing: border-box;
+    .introduction {
+      box-sizing: border-box;
+      width: 570px;
+      height: 432px;
+      position: absolute;
+      left: -68px;
+      bottom: 34px;
+      background-color: #fff;
+      padding-left: 30px;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 46px;
+      .header {
+        h1 {
+          font-size: 48px;
+          font-weight: 700;
+          color: #5956e9;
+        }
+        p {
+          margin-top: 18px;
+          font-size: 16px;
+          color: #6c6c72;
+        }
+      }
+      .download-content {
+        display: flex;
+        flex-direction: column;
+        gap: 5;
 
-
+        span {
+          font-weight: 600;
+          text-transform: uppercase;
+          font-size: 25px;
+          color: #232233;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
 }

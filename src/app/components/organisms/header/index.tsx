@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Logo from "../../atoms/logo/logo";
 import classNames from "classnames/bind";
 import styles from "./header.module.scss";
 import HeaderList, { MenuItem } from "../../atoms/header-list";

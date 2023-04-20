@@ -1,10 +1,10 @@
 import classnames from "classnames/bind";
 import styles from "./layout.module.scss";
 import Header from "./components/organisms/header";
-import { Inter } from "next/font/google";
+import { Josefin_Sans} from "next/font/google";
 import Contact from './components/organisms/contact/index';
 
-const inter = Inter({ subsets: ["latin"] });
+const josefinSans = Josefin_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={josefinSans.className}>
       <body>
         <div className={ss("wrapper")}>
           <Contact/>

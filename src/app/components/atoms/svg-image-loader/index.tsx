@@ -6,7 +6,7 @@ type Props = {
     height:number,
 
 }
-export default function SvgIcon({svgName,width,height}:Props){
+export default function SvgImageLoader({svgName,width,height}:Props){
     return (
         <Image
         src={`/svg/${svgName}.svg`}

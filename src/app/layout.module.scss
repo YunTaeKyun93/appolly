@@ -1,12 +1,14 @@
-.wrapper{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-image: url('/background-Images//main-background.png');
-    background-position: center;
+.wrapper {
+  width: 100vw;
 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("/background-Images//main-background.png");
+  background-position: top ;
+  background-size:contain;   
+  background-repeat: no-repeat;
 }
